@@ -1,3 +1,3 @@
 # cafe-otomasyon-projesi
 
-proje halen geliştirme aşamasındadır ufak tefek düzeltmeler yapılması gerekmektedir. database backup olarak rarda yüklüdür. panele login olmadan giriş yapılabilir.
+C#, Windows Form Apps ve MSSQL kullanarak kafe tarzı işletmeler için freelance olarak otomasyon programı geliştirdim. Proje ile hem sipariş kayıtları tutulabilmekte hem de günlük ciro ve satış çıktılarına ulaşılabilmektedir. Projede ilerleyen zamanlarda fırsat buldukça güncelleme yapmayı düşünüyorum.
