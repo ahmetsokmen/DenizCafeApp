@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b949f4f466c94256b090e229ffff83dc" Name="Diagram1">
+        <EntityTypeShape EntityType="DenizCafeModel.Administrators" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DenizCafeModel.Categories" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DenizCafeModel.OrderLines" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DenizCafeModel.Products" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="DenizCafeModel.FK_Products_Categories" />
+        <AssociationConnector Association="DenizCafeModel.FK_OrderLines_Products" />
+        <EntityTypeShape EntityType="DenizCafeModel.Orders" Width="1.5" PointX="3" PointY="4.875" />
+        <EntityTypeShape EntityType="DenizCafeModel.Tables" Width="1.5" PointX="0.75" PointY="4.875" />
+        <AssociationConnector Association="DenizCafeModel.FK_OrderLines_Orders" />
+        <AssociationConnector Association="DenizCafeModel.FK_Orders_Tables" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
